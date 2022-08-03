@@ -1,0 +1,11 @@
+Patch 3.0.3
+
+Added in the still in development Autonomos AI. The aircraft can now follow predefined waypoint tracks
+and takeoff when told to do so.
+
+1. Open Takeoff AI scene
+2. Play the scene and click the "Start Flight" button. The aircraft will start up and conduct the pre-flight checks,
+you can observe from the inspector and watch the systems come on
+3. Once the checks are complete, the aircraft will taxi and follow "Runway Track A" (Turn on the gizmos to have a better look)
+4. The aircraft will stop at the end of the taxi track and switch to ready mode, click the "Clear for Takeoff" button
+to start the takeoff roll

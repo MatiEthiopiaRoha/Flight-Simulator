@@ -1,0 +1,1077 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1791348864831144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224785256634230}
+  - component: {fileID: 114998845969964496}
+  m_Layer: 9
+  m_Name: A-10 Flight Computer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224785256634230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791348864831144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114998845969964496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791348864831144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9c0d62029b94f43891bd2a2276fc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operationMode: 1
+  state: 0
+  gainSystem: 0
+  controlType: 0
+  augmentationMode: 0
+  commandPreset: 1
+  flapControl: 0
+  gearControl: 1
+  autoSlat: 0
+  airbrakeControl: 0
+  protectorMode: 1
+  lawState: 0
+  longitudinalCommand: 0
+  autoThrottle: 1
+  machHold: 1
+  headingHold: 1
+  bankHold: 1
+  pitchHold: 1
+  altitudeHold: 1
+  bankLimiter: 1
+  pitchLimiter: 1
+  trimState: 1
+  gLimiter: 1
+  gWarner: 1
+  stallWarner: 1
+  speedProtector: 1
+  recoveryMode: 1
+  bankState: 0
+  pitchState: 0
+  commandMode: 1
+  airbrakeType: 0
+  headingMethod: 0
+  pitchMethod: 0
+  mindState: 0
+  flightPoint: {fileID: 0}
+  controller: {fileID: 0}
+  core: {fileID: 0}
+  homePoint: {fileID: 0}
+  wingFoils: []
+  gainBoard: {fileID: 0}
+  basePitchInput: 0
+  baseRollInput: 0
+  baseYawInput: 0
+  baseThrottleInput: 0
+  baseStabilizerTrimInput: 0
+  baseTillerInput: 0
+  pitchDeadZone: 0.25
+  rollDeadZone: 0.3
+  yawDeadZone: 0.35
+  rollBreakPoint: 0.4
+  pitchBreakPoint: 0.4
+  pitchInputCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: -1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.9
+      value: -0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.8
+      value: -0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.7
+      value: -0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.6
+      value: -0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.5
+      value: -0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.4
+      value: -0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.3
+      value: -0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.2
+      value: -0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.1
+      value: -0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3
+      value: 0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: 0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7
+      value: 0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9
+      value: 0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rollInputCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: -1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.9
+      value: -0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.8
+      value: -0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.7
+      value: -0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.6
+      value: -0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.5
+      value: -0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.4
+      value: -0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.3
+      value: -0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.2
+      value: -0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.1
+      value: -0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3
+      value: 0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: 0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7
+      value: 0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9
+      value: 0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yawInputCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: -1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.9
+      value: -0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.8
+      value: -0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.7
+      value: -0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.6
+      value: -0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.5
+      value: -0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.4
+      value: -0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.3
+      value: -0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.2
+      value: -0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: -0.1
+      value: -0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2
+      value: 0.2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3
+      value: 0.3
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: 0.4
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 0.6
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7
+      value: 0.7
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.8
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9
+      value: 0.9
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 35
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchScale: 1
+  rollScale: 1
+  yawScale: 1
+  pitchAngle: 0
+  rollAngle: 0
+  yawAngle: 0
+  pitchRate: 0
+  rollRate: 0
+  yawRate: 0
+  turnRate: 0
+  currentSpeed: 0
+  currentAltitude: 0
+  currentClimbRate: 0
+  currentHeading: 0
+  timeStep: 0
+  aileronSet: 30
+  ruddervatorSet: 30
+  flapSet: 20
+  airbrakeActive: 0
+  actuationSpeed: 30
+  currentAileronSet: 0
+  currentFlapSet: 0
+  currentRudderSet: 0
+  processedPitch: 0
+  processedRoll: 0
+  processedYaw: 0
+  processedThrottle: 0
+  processedStabilizerTrim: 0
+  processedSteeringInput: 0
+  processedTillerInput: 0
+  commandRollInput: 0
+  commandYawInput: 0
+  commandPitchInput: 0
+  processedPitchTrim: 0
+  processedRollTrim: 0
+  processedYawTrim: 0
+  computerAngularDrag: 5
+  pitchAngleError: 0
+  rollAngleError: 0
+  yawAngleError: 0
+  pitchRateError: 0
+  rollRateError: 0
+  yawRateError: 0
+  speedError: 0
+  altitudeError: 0
+  climbRateError: 0
+  headingError: 0
+  machError: 0
+  gError: 0
+  alphaError: 0
+  commandSpeed: 150
+  commandRollRate: 0
+  commandPitchRate: 0
+  commandYawRate: 0
+  commandTurnRate: 0
+  commandBankAngle: 0
+  commandPitchAngle: 0
+  commandAltitude: 1000
+  commandClimbRate: 500
+  commandHeading: 0
+  commandMach: 0.5
+  commandG: 1
+  loadCommand: 1
+  commandAlpha: 1
+  climbPitchCommandCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  cruisePitchCommandCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  performancePitchCommandCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lateralRateCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  presetRollAngle: 0
+  presetPitchAngle: 0
+  balancePitchAngle: 0
+  balanceRollAngle: 0
+  balanceRollRate: 10
+  balancePitchRate: 10
+  balanceYawRate: 10
+  maximumBankAngle: 30
+  maximumTurnBank: 50
+  maximumClimbRate: 500
+  maximumTurnRate: 4
+  maximumPitchAngle: 30
+  minimumPitchAngle: 15
+  maximumGearSpeed: 190
+  minimumControlSpeed: 40
+  maximumLoadFactor: 9
+  minimumLoadFactor: 3
+  balanceRollAuthority: 20
+  balancePitchAuthority: 30
+  balanceYawAuthority: 20
+  commandRollAuthority: 80
+  commandPitchAuthority: 80
+  commandYawAuthority: 70
+  controlCylceRate: 40
+  throttleSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  rollRateSolver:
+    Kp: 0.025
+    Ki: 0.0015
+    Kd: 0.0105
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -0.5
+    maximum: 0.5
+    output: 0
+  pitchRateSolver:
+    Kp: 0.4
+    Ki: 0.009
+    Kd: 0.105
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -0.5
+    maximum: 0.5
+    output: 0
+  yawRateSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: 0
+    maximum: 0
+    output: 0
+  rollAngleSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  pitchAngleSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  yawAngleSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  climbSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  altitudeSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  turnSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  loadFactorSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  rollLimitActive: 0
+  pitchLimitActive: 0
+  gLimitActive: 0
+  pitchAlphaSolver:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    proportional: 0
+    derivative: 0
+    integral: 0
+    minimum: -1
+    maximum: 1
+    output: 0
+  gearSolver: {fileID: 0}
+  speedBrakeSolver: {fileID: 0}
+  overideSpeedbrake: 0
+  climboutRollRate: 90
+  cruiseRollRate: 100
+  maximumRollRate: 200
+  climboutPitchRate: 10
+  climboutG: 4
+  cruisePitchRate: 32
+  cruiseG: 9
+  maximumPitchRate: 30
+  wingStallAngles: []
+  wingLiftCoefficient: []
+  maximumWingAlpha: 0
+  baseStallAngle: 0
+  alphaProt: 10
+  alphaFloor: 10
+  alphaThreshold: 2
+  protectionActive: 0
+  minimumSpeed: 150
+  gThreshold: 9
+  takeOffSlat: 15
+  performanceSlat: 25
+  wingArea: 0
+  baseliftCoefficient: 0
+  wingLift: 0
+  basePitchGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  cruisePitchGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  performancePitchGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  currentPitchGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+  baseRollGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  cruiseRollGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  performanceRollGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  currentRollGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+  baseYawGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  cruiseYawGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  performanceYawGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  currentYawGain:
+    Kp: 0
+    Ki: 0
+    Kd: 0
+  stallWarnerSource: {fileID: 0}
+  gWarnerSource: {fileID: 0}
+  stallClip: {fileID: 0}
+  gClip: {fileID: 0}
+  stalling: 0
+  overging: 0
+  stallSpeed: 100
+  alarmVolume: 0.75
+  gAlarmVolume: 0.75
+  aircraftIdentifier: 
+  gainSet: {fileID: 0}
+  gainSetInput: {fileID: 0}
+  saveLocation: Assets/Silantro Simulator/Fixed Wing/Presets/Gain Sheet/
+  flightState: 0
+  currentState: 0
+  taxiSpeed: 10
+  takeoffSpeed: 100
+  climboutPitchAngle: 8
+  checkListTime: 2
+  transitionTime: 5
+  takeoffHeading: 0
+  inputCheckFactor: 0
+  checkedSurfaces: 0
+  cruiseAltitude: 1000
+  cruiseSpeed: 300
+  cruiseHeading: 0
+  cruiseClimbRate: 1500
+  pointDirection: 0
+  holdAltitude: 1000
+  holdHeading: 0
+  holdBank: 0
+  waypointSystem: {fileID: 0}
+  pointDistance: 0
+  turnRadius: 0
+  headingDifference: 0
+  turnDistance: 0
+  absoluteBankAngle: 67
+  maximumClimbPitchRate: 5
+  overidePitchCommand: 0
+  overideControl: 0
+  maximumSpeed: 200
+  maximumMachSpeed: 0.6

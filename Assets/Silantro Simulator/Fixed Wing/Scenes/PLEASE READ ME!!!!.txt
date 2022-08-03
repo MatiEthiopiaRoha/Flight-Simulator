@@ -1,0 +1,36 @@
+Before opening any of the sample scenes please do the following
+
+1. Setup Input from the menu >> Check the upgrade document for more
+
+2. Create the following layers in the following order
+	a. Ground - Layer 8
+	b. Aircraft - Layer 9
+	c. Human - Layer 10
+	d. Munition - Layer 11
+
+3. Disable the following collision in the physics settings
+	a. Aircraft-Munition
+	b. Aircraft-Human
+	c. Aircraft-Aircraft
+	d. Munition-Human
+	e. Munition-Munition
+
+4. a. Move all the aircraft colliders to the "Aircraft" layer
+   b. Move the "Hardpoint" gameobject in the aircraft (Only for weapon enabled aircrafts) to the "Munition" layer
+   c. Move the Bullet/Rocket/Bomb and Missile prefabs to the "Munition" layer
+   d. Move the Players/Player prefabs and Pilot gameobjects to the "Human" layer
+
+Note: Some of these should be done automatically, but its always better to double check
+
+
+
+New Inputs
+
+Q- Switch Weapons
+Press Down Z and 1 - Fire Rockets
+Press Down Z and 2 - Fire Missiles
+Press Down Z and 3 - Drop Bombs
+
+
+
+You can mail me if you run into any problems or report bugs.

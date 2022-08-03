@@ -1,0 +1,2215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: General Electric TF34-GE-100A Turbofan
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 1ff980ef1d71c514c9089a4bd5fbdc07,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engineType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: intakeType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reheatSystem
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reverseThrustMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: intakePoint
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: exitPoint
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanExhaustPoint
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: controller
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: computer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: connectedAircraft
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.engineIdentifier
+    value: General Electric TF34-GE-100A
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.cameraSector
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.engine
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.controller
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.engineType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.enginePosition
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.rotationAxis
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.rotationDirection
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.vectoringType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.turboJet
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.turboFan
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.turboProp
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.piston
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.intakeFan
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.soundMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.interiorMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.sideVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.frontVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.backVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.interiorVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.exteriorVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.overideExteriorVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.overideInteriorVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.overidePitch
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.basePitch
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.frontSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.sideSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.backSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.interiorSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.exteriorSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.interiorBase
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.frontIdle
+    value: 
+    objectReference: {fileID: 8300000, guid: 95b6e846d0fa5f949a64070a324268cd, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.sideIdle
+    value: 
+    objectReference: {fileID: 8300000, guid: b3d02483100261643bf607158d7059ae, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.backIdle
+    value: 
+    objectReference: {fileID: 8300000, guid: 9cdd8174d24bc5a408383022048c68aa, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.interiorIdle
+    value: 
+    objectReference: {fileID: 8300000, guid: 8ae2461e434c92146991922e2ff02fb9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.ignitionInterior
+    value: 
+    objectReference: {fileID: 8300000, guid: f90c7ca49772a3648a073254e343a75b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.ignitionExterior
+    value: 
+    objectReference: {fileID: 8300000, guid: 3e3499c4733014c42bf9b08b2add11c9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.shutdownInterior
+    value: 
+    objectReference: {fileID: 8300000, guid: 854bca23dcb487e4391eb6a0229a59a6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.shutdownExterior
+    value: 
+    objectReference: {fileID: 8300000, guid: 852592e778fd9f248ad2dbbd0504ea76, type: 3}
+  - target: {fileID: 0}
+    propertyPath: core.baseEffects
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseEmission
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.CurrentEngineState
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseCoreAcceleration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.corePower
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.trueCoreAcceleration
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.start
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.shutdown
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.clutching
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.active
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.coreRPM
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.factorRPM
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.norminalRPM
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.functionalRPM
+    value: 4400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.controlInput
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.idlePercentage
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.coreFactor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.fuelFactor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.overspeedAllowance
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.afterburnerOperative
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.canUseAfterburner
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.pitchTarget
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.gControl
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.gForce
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.pitchFactor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.totalLoad
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.engineLoad
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.inputLoad
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.shaftRPM
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.powerInput
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.torqueConnected
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.torqueEngaged
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.minimumRPM
+    value: 4312
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.maximumRPM
+    value: 4488
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.reverseThrustAvailable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.reverseThrustEngaged
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.reverseThrustFactor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.reverseThrustPercentage
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.exhaustSmoke
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.exhaustDistortion
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseColor.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseColor.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseColor.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseColor.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.finalColor.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.finalColor.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.finalColor.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.finalColor.a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.smokeEmissionLimit
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.distortionEmissionLimit
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.engineMaterial
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.afterburnerTubeMaterial
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.emissionCore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.maximumNormalEmission
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.maximumAfterburnerEmission
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.dataSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.targetDiameter
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.currentDiameter
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseDiameter
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.targetLength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.currentLength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.baseLength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.normalDiameter
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.normalLength
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.wetDiameter
+    value: 1200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.wetLength
+    value: 1200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.wetAlpha
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.normalAlpha
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.actualDiameter
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.actualLength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.flameObject
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.flameMaterial
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.currentLevel
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.flameAlpha
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.targetAlpha
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.alphaSpeed
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.scaleSpeed
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: core.coreFlame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: initialized
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: evaluate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: diffuserDrawDiameter
+    value: 1.107
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanExhaustDrawDiameter
+    value: 1.07748
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: coreExhaustDrawDiameter
+    value: 0.41451
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engineDiameter
+    value: 1.23
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: intakePercentage
+    value: 90
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: coreExhaustPercentage
+    value: 33.7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanExhaustPercentage
+    value: 87.6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inletArea
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: di
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: coreExhaustArea
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanExhaustArea
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: intakeFactor
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ma
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Uc
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.size
+    value: 19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].time
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].value
+    value: 1.003
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].time
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].value
+    value: 1.005
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].time
+    value: 350
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].value
+    value: 1.008
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[2].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].time
+    value: 400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].value
+    value: 1.013
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].time
+    value: 450
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].value
+    value: 1.02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[4].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].time
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].value
+    value: 1.029
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[5].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].time
+    value: 550
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].value
+    value: 1.04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[6].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].time
+    value: 600
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].value
+    value: 1.051
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[7].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].time
+    value: 650
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].value
+    value: 1.063
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[8].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].time
+    value: 700
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].value
+    value: 1.075
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[9].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].time
+    value: 750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].value
+    value: 1.087
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[10].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].time
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].value
+    value: 1.099
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[11].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].time
+    value: 900
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].value
+    value: 1.121
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[12].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].time
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].value
+    value: 1.142
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[13].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].time
+    value: 1100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].value
+    value: 1.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[14].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].time
+    value: 1200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].value
+    value: 1.173
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[15].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].time
+    value: 1300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].value
+    value: 1.19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[16].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].time
+    value: 1400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].value
+    value: 1.204
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[17].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].time
+    value: 1500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].value
+    value: 1.216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_Curve.Array.data[18].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureFactor.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.size
+    value: 19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].time
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].value
+    value: 1.401
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[0].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].time
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].value
+    value: 1.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[1].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].time
+    value: 350
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].value
+    value: 1.398
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[2].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].time
+    value: 400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].value
+    value: 1.395
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].time
+    value: 450
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].value
+    value: 1.391
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[4].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].time
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].value
+    value: 1.387
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[5].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].time
+    value: 550
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].value
+    value: 1.381
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[6].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].time
+    value: 600
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].value
+    value: 1.376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[7].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].time
+    value: 650
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].value
+    value: 1.37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[8].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].time
+    value: 700
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].value
+    value: 1.364
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[9].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].time
+    value: 750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].value
+    value: 1.359
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[10].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].time
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].value
+    value: 1.354
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[11].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].time
+    value: 900
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].value
+    value: 1.344
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[12].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].time
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].value
+    value: 1.336
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[13].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].time
+    value: 1100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].value
+    value: 1.331
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[14].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].time
+    value: 1200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].value
+    value: 1.324
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[15].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].time
+    value: 1300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].value
+    value: 1.318
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[16].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].time
+    value: 1400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].value
+    value: 1.313
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[17].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].time
+    value: 1500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].value
+    value: 1.309
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_Curve.Array.data[18].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adiabaticFactor.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pa
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P02
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P03
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P04
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P05
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P06
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P08
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P09
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P10
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Pc
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ta
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T02
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T03
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T04
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T05
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T06
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T08
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T09
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: T10
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03C0c"
+    value: 17.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03C0f"
+    value: 1.155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B2"
+    value: 6.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03C1a"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B3a"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B31"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B32"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B33"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B34"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B35"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B36"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B37"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B38"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: "\u03B39"
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cpa
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp1
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp3
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp4
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp7
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp8
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cp9
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ma
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mh
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: f
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fab
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Q
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TIT
+    value: 1186.15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: MaximumTemperature
+    value: 2000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ppc
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nd
+    value: 73.8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nf
+    value: 90
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nc
+    value: 87.84
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nb
+    value: 97.39
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nhpt
+    value: 97
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nab
+    value: 92
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nn
+    value: 95.23
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: nlpt
+    value: 97
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pcc
+    value: 4.24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pcab
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Te
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Aeb
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Ae
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Me
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: coreThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pressureThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: engineThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TSFC
+    value: 0.371
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cAe
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fAe
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Wc
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Uef
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanPressureThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fanCoreThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: coreCoreThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: corePressureThrust
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pcc8b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pcc8a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: P8c
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: p6cp5
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: p7c
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: p7cp6
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showPerformance
+    value: 0
+    objectReference: {fileID: 0}

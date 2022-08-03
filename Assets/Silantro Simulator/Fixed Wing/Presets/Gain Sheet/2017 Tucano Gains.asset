@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edbfedc9f95cc246acdb7d85ef87ba4, type: 3}
+  m_Name: 2017 Tucano Gains
+  m_EditorClassIdentifier: 
+  label: 
+  throttleGain:
+    Kp: 0.6
+    Ki: 0.3
+    Kd: 0.05
+    minimum: 0.1
+    maximum: 1.05
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  rollRateGain:
+    Kp: 0.003
+    Ki: 0.135
+    Kd: 0.00005
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  pitchRateGain:
+    Kp: 0.005
+    Ki: 0.15
+    Kd: 0.000002
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  yawRateGain:
+    Kp: 0.05
+    Ki: 0.235
+    Kd: 0.0003
+    minimum: 0
+    maximum: 0
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  rollAngleGain:
+    Kp: 0.6
+    Ki: 0
+    Kd: 0.08
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  pitchAngleGain:
+    Kp: 0.4
+    Ki: 0
+    Kd: 0.05
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  yawAngleGain:
+    Kp: 1
+    Ki: 0
+    Kd: 0.1
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  altitudeGain:
+    Kp: 0.3
+    Ki: 0
+    Kd: 0.002
+    minimum: -10
+    maximum: 10
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  climbGain:
+    Kp: 0.3
+    Ki: 0
+    Kd: 0.5
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0
+  turnGain:
+    Kp: 0.6
+    Ki: 0.002
+    Kd: 0.05
+    minimum: -1
+    maximum: 1
+    factor: 0
+    gainLabel: 
+    factorType: 0

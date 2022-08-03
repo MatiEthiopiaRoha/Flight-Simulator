@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8764650602238773772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8764650602238773773}
+  - component: {fileID: 8764650602238773775}
+  - component: {fileID: 8764650602238773774}
+  m_Layer: 9
+  m_Name: AN_APG-68 Radar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8764650602238773773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8764650602238773772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8764650602238773775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8764650602238773772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb19a1dfa497714189792dae55bcdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  silantroTag: 0
+  silantroTexture: {fileID: 2800000, guid: a4fad276fe97bce4e884e552ed82c7c6, type: 3}
+  AssignedID: Default
+  TrackingID: Default
+  isTracked: 0
+  isLockedOn: 0
+  radarSignature: 1
+--- !u!114 &8764650602238773774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8764650602238773772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2668f965f001ce94189f4748e66a39bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radarType: 1
+  objectFilter: 0
+  radarMode: 0
+  connectedAircraft: {fileID: 0}
+  transponder: {fileID: 0}
+  supportRadar: {fileID: 0}
+  filteredObjects: []
+  airTargets: []
+  groundTargets: []
+  visibleObjects: []
+  processedObjects: []
+  range: 20000
+  minimumWeaponsRange: 5000
+  criticalSignature: 0.5
+  pingRate: 5
+  actualPingRate: 0
+  pingTime: 0
+  checkLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  displayBounds: 0
+  TrackerID: 
+  size: 200
+  Transparency: 0.9
+  background: {fileID: 2800000, guid: a8711405471394445a39de96515e6177, type: 3}
+  compass: {fileID: 2800000, guid: ed6b6cfc0a74e7b4cb4b3ae6967ce65d, type: 3}
+  rotate: 0
+  generalColor: {r: 1, g: 1, b: 1, a: 1}
+  labelColor: {r: 1, g: 1, b: 1, a: 1}
+  radarSkin: {fileID: 11400000, guid: bd4785f8dcbf9d641a1e6f3689d8dd43, type: 2}
+  currentCamera: {fileID: 0}
+  lockedTargetCamera: {fileID: 0}
+  targetCamera: {fileID: 0}
+  cameraDistance: 14
+  cameraHeight: 10
+  targetLocked: 0
+  markTargets: 0
+  lockedTarget:
+    name: 
+    body: {fileID: 0}
+    form: 
+    speed: 0
+    altitude: 0
+    distance: 0
+    heading: 0
+    trackingID: 
+    ETA: 0
+    transponder: {fileID: 0}
+  lockedPosition: {x: 0, y: 0, z: 0}
+  selectedTargetTexture: {fileID: 2800000, guid: e31c7d7da8d225b44a971dce8807a80f,
+    type: 3}
+  lockedTargetTexture: {fileID: 2800000, guid: cd85c68a280c2a64e98425b8d5b6352a, type: 3}
+  objectScale: 2.5
+  targetSelection: 0
+  currentTarget:
+    name: 
+    body: {fileID: 0}
+    form: 
+    speed: 0
+    altitude: 0
+    distance: 0
+    heading: 0
+    trackingID: 
+    ETA: 0
+    transponder: {fileID: 0}
+  TargetLockOnTexture: {fileID: 2800000, guid: 46ea6a7fef41ab747b47281002975b67, type: 3}
+  TargetLockedTexture: {fileID: 2800000, guid: 521acc8e58cc39942a1cf48549988261, type: 3}

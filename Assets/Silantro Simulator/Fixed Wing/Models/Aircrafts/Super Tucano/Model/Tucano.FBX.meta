@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: e0aff37f9eaf81048886f0bbb1a44fee
+timeCreated: 1561584529
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Canopy
+    100002: Cockpit
+    100004: Control Stick
+    100006: Fast Propeller
+    100008: Front Door
+    100010: Front Gear
+    100012: Front Wheel
+    100014: Fuselarge
+    100016: Left Aileron
+    100018: Left Display
+    100020: Left Elevator
+    100022: Left Flap
+    100024: Left Inner Wing
+    100026: Left Pylon
+    100028: Left Tank
+    100030: Left Wheel
+    100032: Left Wheel 1
+    100034: Left Wing
+    100036: Main Propeller
+    100038: Middle Screen
+    100040: Middle Tank
+    100042: Right Aileron
+    100044: Right Display
+    100046: Right Elevator
+    100048: Right Flap
+    100050: Right Gear
+    100052: Right Inner Wing
+    100054: Right Pylon
+    100056: Right Tank
+    100058: Right Wheel
+    100060: Right Wing
+    100062: Rudder
+    100064: Tail
+    100066: Throttle Lever
+    100068: //RootNode
+    400000: Canopy
+    400002: Cockpit
+    400004: Control Stick
+    400006: Fast Propeller
+    400008: Front Door
+    400010: Front Gear
+    400012: Front Wheel
+    400014: Fuselarge
+    400016: Left Aileron
+    400018: Left Display
+    400020: Left Elevator
+    400022: Left Flap
+    400024: Left Inner Wing
+    400026: Left Pylon
+    400028: Left Tank
+    400030: Left Wheel
+    400032: Left Wheel 1
+    400034: Left Wing
+    400036: Main Propeller
+    400038: Middle Screen
+    400040: Middle Tank
+    400042: Right Aileron
+    400044: Right Display
+    400046: Right Elevator
+    400048: Right Flap
+    400050: Right Gear
+    400052: Right Inner Wing
+    400054: Right Pylon
+    400056: Right Tank
+    400058: Right Wheel
+    400060: Right Wing
+    400062: Rudder
+    400064: Tail
+    400066: Throttle Lever
+    400068: //RootNode
+    2300000: Canopy
+    2300002: Cockpit
+    2300004: Control Stick
+    2300006: Fast Propeller
+    2300008: Front Door
+    2300010: Front Gear
+    2300012: Front Wheel
+    2300014: Fuselarge
+    2300016: Left Aileron
+    2300018: Left Display
+    2300020: Left Elevator
+    2300022: Left Flap
+    2300024: Left Inner Wing
+    2300026: Left Pylon
+    2300028: Left Tank
+    2300030: Left Wheel
+    2300032: Left Wheel 1
+    2300034: Left Wing
+    2300036: Main Propeller
+    2300038: Middle Screen
+    2300040: Middle Tank
+    2300042: Right Aileron
+    2300044: Right Display
+    2300046: Right Elevator
+    2300048: Right Flap
+    2300050: Right Gear
+    2300052: Right Inner Wing
+    2300054: Right Pylon
+    2300056: Right Tank
+    2300058: Right Wheel
+    2300060: Right Wing
+    2300062: Rudder
+    2300064: Tail
+    2300066: Throttle Lever
+    3300000: Canopy
+    3300002: Cockpit
+    3300004: Control Stick
+    3300006: Fast Propeller
+    3300008: Front Door
+    3300010: Front Gear
+    3300012: Front Wheel
+    3300014: Fuselarge
+    3300016: Left Aileron
+    3300018: Left Display
+    3300020: Left Elevator
+    3300022: Left Flap
+    3300024: Left Inner Wing
+    3300026: Left Pylon
+    3300028: Left Tank
+    3300030: Left Wheel
+    3300032: Left Wheel 1
+    3300034: Left Wing
+    3300036: Main Propeller
+    3300038: Middle Screen
+    3300040: Middle Tank
+    3300042: Right Aileron
+    3300044: Right Display
+    3300046: Right Elevator
+    3300048: Right Flap
+    3300050: Right Gear
+    3300052: Right Inner Wing
+    3300054: Right Pylon
+    3300056: Right Tank
+    3300058: Right Wheel
+    3300060: Right Wing
+    3300062: Rudder
+    3300064: Tail
+    3300066: Throttle Lever
+    4300000: Left Flap
+    4300002: Right Flap
+    4300004: Right Wing
+    4300006: Left Wing
+    4300008: Fast Propeller
+    4300010: Main Propeller
+    4300012: Cockpit
+    4300014: Right Inner Wing
+    4300016: Left Inner Wing
+    4300018: Right Pylon
+    4300020: Left Pylon
+    4300022: Middle Tank
+    4300024: Left Tank
+    4300026: Right Tank
+    4300028: Right Display
+    4300030: Left Display
+    4300032: Middle Screen
+    4300034: Throttle Lever
+    4300036: Left Wheel
+    4300038: Left Wheel
+    4300040: Left Aileron
+    4300042: Right Gear
+    4300044: Right Wheel
+    4300046: Right Aileron
+    4300048: Tail
+    4300050: Rudder
+    4300052: Left Elevator
+    4300054: Fuselarge
+    4300056: Front Gear
+    4300058: Front Wheel
+    4300060: Front Door
+    4300062: Control Stick
+    4300064: Canopy
+    4300066: Right Elevator
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
